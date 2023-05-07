@@ -27,7 +27,7 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 1rem;
     box-shadow:
     0 0 60px 20px rgba(191,0,255, 1),
-    0 0 120px 20px rgba(0,0,255, 1),
+    0 0 190px 20px rgba(0,0,255, 1),
     0 0 140px 30px #ffff;
 
     /*
@@ -37,7 +37,6 @@ h1,h2,h3,h4,h5,h6,p{
     0 0 140px 30px #ffff;
     */
 }
-
 @font-face{
     font-family: mainFont;
     src: url(SF-UI-Display-Thin.otf)
