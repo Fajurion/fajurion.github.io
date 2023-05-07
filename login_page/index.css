@@ -1,0 +1,97 @@
+#welcome {
+    animation: transitionIn 2.5s;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    backdrop-filter: blur(1000px);
+    background-color: rgba(255, 255, 255, 0.10);
+    border-radius: 10px;
+    font-family: mainFont;
+    color: white;
+    width: 200px;
+    height: 275px;
+
+}
+
+@font-face{
+    font-family: mainFont;
+    src: url(SF-UI-Display-Thin.otf)
+}
+
+
+button{  
+    position: static;
+    border: none;
+    border-radius: 2.5px;
+    color:white;
+    transition: 0.424s all cubic-bezier(.02,.91,.35,.98);
+    font-family: mainFont;
+
+    letter-spacing: normall;
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+button:hover{
+    letter-spacing: 10px;
+
+
+}
+
+
+
+input{
+    background-color: rgba(0, 0, 0, 0.21);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+input:hover{
+    animation: inputOnHover 0.5s;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 10px;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    transition: 0.5s all cubic-bezier(.02,.91,.35,.98);
+    letter-spacing: normal;
+}
+
+h1:hover, h2:hover,h3:hover,h4:hover,h5:hover,h6:hover, p:hover{
+    
+    letter-spacing: 5px;
+
+}
+body{
+    background-image: url("bg2.png");
+    background-size: cover;
+}
+
+@keyframes transitionIn {
+    from{
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter: blur(0px);
+    }
+
+    to {
+        background-color: rgba(255, 255, 255, 0.11);
+        backdrop-filter: blur(1000px);
+    }
+}
+
+@keyframes inputOnHover {
+    from{
+        background-color: rgba(0, 0, 0, 0.21);
+        border-radius: 5px;
+    }
+
+    to {
+        background-color: rgba(0, 0, 0, 0.61);
+        border-radius: 10px;
+    }
+}
