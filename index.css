@@ -9,33 +9,36 @@ h1,h2,h3,h4,h5,h6,p{
     font-family: mainFont;
 }
 
-#welcome{
+.welcome{
     position: fixed;
     top: 0%;
     bottom: 0%;
     left: 0%;
     right: 0%;
-    width: 400px;
-    height: 380px;
+    width: 80%;
+    height: 80%;
     text-align: center;
     margin:auto;
-    font-size: 40px;
+    font-size: 25px;
     background-color:rgba(255,255,255,0.01);
     border-radius: 30px;
-    backdrop-filter: blur(500px);
+    backdrop-filter: blur(1000px);
     padding: 1rem;
+    
     /*
     box-shadow:
-    0 0 80px 15px rgba(191,0,255, 1),
-    0 0 50px 5px rgba(0,0,255, 1)
+    0 0 80px 15px violet,
+    0 0 50px 5px blue;
+    */
 
-    
+    /*
     box-shadow:
     0 0 40px 20px rgba(191,0,255, 1),
     0 0 150px 60px rgba(0,0,255, 0.5),
     0 0 140px 30px #ffff;
     */
 }
+
 @font-face{
     font-family: mainFont;
     src: url(SF-UI-Display-Thin.otf)
